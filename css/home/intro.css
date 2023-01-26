@@ -28,9 +28,7 @@
     margin-bottom: 32px;
   
 }
-.intro h1 span{
-    color: var(--color-p1);
-}
+
 .intro p{
     margin-bottom: 20px;
     color: var(--color-5);
