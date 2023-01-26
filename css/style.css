@@ -1,4 +1,6 @@
 @import "./global/global.css";
+@import "./utilities/typography.css";
+@import "./utilities/colors.css";
 @import "./global/header.css";
 @import "./utilities/components.css";
 /* HOME */
@@ -20,21 +22,21 @@
     }
 
     .header-menu a {
-        background: #111111;
+        background-color: var(--color-12);
         padding: 12px 16px;
         border-radius: 4px;
     }
 
     .header-menu a:hover {
-        background-color: #2e2e2e;
+        background-color: var(--color-10);
     }
     .header a:after{
         display: none;
     }
     .intro-bg{
-       background-color: #111111;
+       background-color: var(--color-12);
        padding-top: 40px;
-       box-shadow: inset -60px #ffffff;
+       box-shadow: inset -60px var(--color-0);
     }
     .intro{
         grid-template-columns: 1fr;
