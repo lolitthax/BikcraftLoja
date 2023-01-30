@@ -1,15 +1,49 @@
 .tecnology-bg {
     background-color: var(--color-11);
+    box-shadow: inset 0 80px var(--color-0), inset 0 -80px var(--color-0);
 }
 
 .tecnology {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 40px;
+  
 }
-.tecnology-img img{
+.tecnology-img img {
+    width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: left;
-    width: 100%;
+}
+.tecnology-content {
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+.tecnology-content > span {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.tecnology-content h2{
+    margin-bottom: 32px;
+}
+.tecnology-content > p{
+    margin-bottom: 20px;
+}
+.tecnology a {
+    margin-bottom: 60px;
+ 
+}
+.tecnology-benefits{
+    display: flex;
+    gap: 40px;
+}
+
+.tecnology-benefits h3{
+    margin-bottom: 8px;
+    width: max-content;
+}
+.tecnology-benefits img{
+    width: 24px;
+    margin-bottom: 8px;
 }
