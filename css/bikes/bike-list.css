@@ -15,11 +15,18 @@
 .bike-list ul{
  display: flex;
  gap: 40px;
- padding: 0 20px;
+ padding: 0 20px 20px;
  max-width: 1400px;
  margin-left: auto;
  margin-right: auto;
+ overflow-x: auto;
 }
+
+.bike-list li{
+    flex: 1;
+    min-width: 280px;
+}
+
 .bike-list a{
     display: block;
 }
@@ -40,7 +47,11 @@
     width: 12px;
     margin-right: 8px;
     display: inline-block;
+    transition: width 0.2s;
 
+}
+.bike-list a:hover h3::before{
+    width: 24px;
 }
 .bike-list li span{
     padding-left: 20px;
