@@ -5,6 +5,8 @@
 @import "./utilities/components.css";
 /* HOME */
 @import "./home/intro.css";
+/* BIKE-LIST */
+@import "./bikes/bike-list.css";
 
 
 /* mobile */

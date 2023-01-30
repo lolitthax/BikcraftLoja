@@ -13,10 +13,21 @@ a {
     text-decoration: none;
     color: inherit;
 }
-img{
+
+img {
     max-width: 100%;
     display: block;
 }
-h1, ul, p{
+/* somente imgs que forem jpg terão bordas arredondadas */
+img[src$=".jpg"]{
+    border-radius: 4px;
+}
+
+h1,
+h2,
+h3,
+h4,
+ul,
+p {
     margin: 0px;
 }
