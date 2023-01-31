@@ -6,6 +6,8 @@
 /* HOME */
 @import "./home/intro.css";
 @import "./home/tecnology.css";
+@import "./home/partners.css";
+@import "./home/testimony.css";
 /* BIKE-LIST */
 @import "./bikes/bike-list.css";
 
@@ -82,7 +84,35 @@
     .tecnology-img{
         display: none;
     }
-   
+    .partners{
+        padding-bottom: 60px;
+    }
+    .partners h2{
+        margin-bottom: 20px;
+    }
+    .partners ul{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .partners li{
+        padding: 20px;
+    }
+    .partners li:nth-child(n + 3){
+        border-top: 2px solid var(--color-2);
+    }
+    .partners li:nth-child(odd){
+        border-left: none;
+    }
+   .testimony{
+    text-align: center;
+   }
+   .testimony img{
+    max-height: 200px;
+   }
+   .testimony-content{
+    padding: 40px 20px;
+    justify-self: center;
+   }
+ 
 }
 
 @media (max-width: 600px) {
