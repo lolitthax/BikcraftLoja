@@ -45,3 +45,12 @@
 .link:hover{
     color: var(--color-0);
 }
+/* títulos internos */
+.title-bg{
+    background: var(--color-11);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.title p{
+    margin-bottom: 4px;
+}
