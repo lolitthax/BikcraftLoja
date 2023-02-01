@@ -2,6 +2,7 @@
 @import "./utilities/typography.css";
 @import "./utilities/colors.css";
 @import "./global/header.css";
+@import "./global/footer.css";
 @import "./utilities/components.css";
 /* HOME */
 @import "./home/intro.css";
@@ -14,19 +15,23 @@
 @import "./insurance/insurance.css";
 
 /* mobile */
-@media (max-width: 1200px){
-    .font-1-xxl{
+@media (max-width: 1200px) {
+    .font-1-xxl {
         font-size: 3rem;
     }
-    .font-2-l, .font-2-l-b{
+
+    .font-2-l,
+    .font-2-l-b {
         font-size: 1.125rem;
     }
-   
+
 }
 
 
 @media (max-width: 800px) {
-    .font-1-xl, .font-2-xl{
+
+    .font-1-xl,
+    .font-2-xl {
         font-size: 1.5rem;
     }
 
@@ -43,86 +48,116 @@
     .header-menu a:hover {
         background-color: var(--color-10);
     }
-    .header a:after{
+
+    .header a:after {
         display: none;
     }
-    .intro-bg{
-       background-color: var(--color-12);
-       padding-top: 40px;
-       box-shadow: inset -60px var(--color-0);
+
+    .intro-bg {
+        background-color: var(--color-12);
+        padding-top: 40px;
+        box-shadow: inset -60px var(--color-0);
     }
-    .intro{
+
+    .intro {
         grid-template-columns: 1fr;
         gap: 32px;
     }
-    .intro-content{
+
+    .intro-content {
         padding-bottom: 0px;
     }
-    .font-1-xxl{
+
+    .font-1-xxl {
         font-size: 2rem;
         margin-bottom: 16px;
     }
-    .intro img{
+
+    .intro img {
         height: 300px;
         width: 100%;
     }
-    .bike-list{
+
+    .bike-list {
         padding-bottom: 60px;
     }
-    .bike-list ul{
-      gap: 20px;  
+
+    .bike-list ul {
+        gap: 20px;
     }
-    .tecnology-bg{
+
+    .tecnology-bg {
         box-shadow: initial;
     }
-    .tecnology{
+
+    .tecnology {
         grid-template-columns: 1fr;
     }
-    .tecnology-content{
+
+    .tecnology-content {
         padding: 60px;
         padding-bottom: 60px;
     }
-    .tecnology-img{
+
+    .tecnology-img {
         display: none;
     }
-    .partners{
+
+    .partners {
         padding-bottom: 60px;
     }
-    .partners h2{
+
+    .partners h2 {
         margin-bottom: 20px;
     }
-    .partners ul{
+
+    .partners ul {
         grid-template-columns: repeat(2, 1fr);
     }
-    .partners li{
+
+    .partners li {
         padding: 20px;
     }
-    .partners li:nth-child(n + 3){
+
+    .partners li:nth-child(n + 3) {
         border-top: 2px solid var(--color-2);
     }
-    .partners li:nth-child(odd){
+
+    .partners li:nth-child(odd) {
         border-left: none;
     }
-   .testimony{
-    text-align: center;
-   }
-   .testimony img{
-    max-height: 200px;
-   }
-   .testimony-content{
-    padding: 40px 20px;
-    justify-self: center;
-   }
-   .insurance{
-    grid-template-columns: 1fr;
-   }
- 
+
+    .testimony {
+        text-align: center;
+    }
+
+    .testimony img {
+        max-height: 200px;
+    }
+
+    .testimony-content {
+        padding: 40px 20px;
+        justify-self: center;
+    }
+
+    .insurance {
+        grid-template-columns: 1fr;
+    }
+
+    .footer>img {
+        display: none;
+    }
+    .footer{
+        grid-template-columns: 1fr 1fr;
+    }
+
 }
 
 @media (max-width: 600px) {
-    .font-1-xxl{
+    .font-1-xxl {
         font-size: 1.5rem;
     }
+
     .header-menu {
         gap: 12px;
     }
@@ -131,12 +166,21 @@
         padding: 8px 12px;
         font-size: 14px;
     }
-    .button{
+
+    .button {
         padding: 12px 16px;
         font-size: 1rem;
     }
-    .tecnology-benefits{
+
+    .tecnology-benefits {
         flex-direction: column;
     }
-   
+    .footer{
+        grid-template-columns: 1fr;
+        gap: 60px;
+    }
+    .footer-copy{
+        margin-top: 0px;
+    }
+
 }
