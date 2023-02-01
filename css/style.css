@@ -10,7 +10,8 @@
 @import "./home/testimony.css";
 /* BIKE-LIST */
 @import "./bikes/bike-list.css";
-
+/* insurance */
+@import "./insurance/insurance.css";
 
 /* mobile */
 @media (max-width: 1200px){
@@ -111,6 +112,9 @@
    .testimony-content{
     padding: 40px 20px;
     justify-self: center;
+   }
+   .insurance{
+    grid-template-columns: 1fr;
    }
  
 }
