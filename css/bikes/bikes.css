@@ -1,5 +1,5 @@
 .bikes-bg{
-    background: var(--color-11);
+    background: linear-gradient( to right, var(--color-0) 30%, var(--color-11) 0%)
 }
 .bikes{
     display: grid;
@@ -30,6 +30,7 @@
 .bikes-content{
     display: grid;
     grid-template-columns: 1fr auto;
+    align-content: start;
    
 }
 .bikes-content h2,

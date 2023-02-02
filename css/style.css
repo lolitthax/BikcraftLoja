@@ -164,6 +164,16 @@
         text-transform: lowercase;
         font-weight: 400;
     }
+    .bikes-bg{
+        background: var(--color-11);
+    }
+    .bikes{
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
 
 }
 
@@ -189,6 +199,18 @@
     .tecnology-benefits {
         flex-direction: column;
     }
+    .bikes-content{
+        grid-template-columns: 1fr;
+    }
+    .bikes ul{
+        margin-bottom: 32px;
+        grid-template-columns: 1fr 1fr;
+        font-size: 1rem;
+    }
+    .bikes a{
+        place-self: start;
+    }
+   
     .footer{
         grid-template-columns: 1fr;
         gap: 60px;
