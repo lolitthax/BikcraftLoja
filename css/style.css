@@ -13,10 +13,13 @@
 @import "./bikes/bike-list.css";
 /* insurance */
 @import "./insurance/insurance.css";
+@import "./insurance/benefits.css";
+@import "./insurance/question.css";
 /* terms */
 @import "./terms/terms.css";
 /* bikes */
 @import "./bikes/bikes.css";
+
 
 
 /* mobile */
@@ -172,6 +175,16 @@
         gap: 20px;
         padding-top: 40px;
         padding-bottom: 40px;
+    }
+    .benefits{
+        padding: 60px;
+        padding-bottom: 60px;
+    }
+    .benefits h2{
+        margin-bottom: 40px;
+    }
+    .benefits ul{
+        gap: 20px;
     }
 
 
