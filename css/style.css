@@ -186,6 +186,13 @@
     .benefits ul{
         gap: 20px;
     }
+    .questions{
+       padding-top: 60px; 
+       padding-bottom: 60px;
+    }
+    .questions h2{
+        margin-bottom: 40px;
+    }
 
 
 }
