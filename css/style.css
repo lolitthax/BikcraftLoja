@@ -4,6 +4,7 @@
 @import "./global/header.css";
 @import "./global/footer.css";
 @import "./utilities/components.css";
+@import "./utilities/form.css";
 /* HOME */
 @import "./home/intro.css";
 @import "./home/tecnology.css";
@@ -22,7 +23,9 @@
 @import "./terms/terms.css";
 /* bikes */
 @import "./bikes/bikes.css";
-
+/* contact */
+@import "./contact/contact.css";
+@import "./contact/store.css";
 
 
 
@@ -235,7 +238,28 @@
         padding-top: 40px;
         padding-bottom: 0px;
     }
-
+    .contact{
+        grid-template-columns: 1fr;
+    }
+    .contact-data,
+    .contact-form{
+        padding: 20px;
+    }
+    .contact-data{
+        border-radius: 5px 5px 0 0;
+    }
+    .contact-form{
+        border-radius: 0 0 5px 5px;
+    }
+    .contact-data h2,
+    .contact-info a:nth-child(3){
+        margin-bottom: 32px;
+    }
+    .contact-medias{
+        margin-bottom: 12px;
+    
+    }
+    
 
 }
 
