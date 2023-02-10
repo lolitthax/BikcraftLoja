@@ -228,7 +228,7 @@
     .insurance-bike-bg {
         box-shadow: inset 0 -60px var(--color-12);
     }
- 
+
     .insurance-bike {
         grid-template-columns: 1fr;
     }
@@ -238,28 +238,48 @@
         padding-top: 40px;
         padding-bottom: 0px;
     }
-    .contact{
+
+    .contact {
         grid-template-columns: 1fr;
     }
+
     .contact-data,
-    .contact-form{
+    .contact-form {
         padding: 20px;
     }
-    .contact-data{
+
+    .contact-data {
         border-radius: 5px 5px 0 0;
     }
-    .contact-form{
+
+    .contact-form {
         border-radius: 0 0 5px 5px;
     }
+
     .contact-data h2,
-    .contact-info a:nth-child(3){
+    .contact-info a:nth-child(3) {
         margin-bottom: 32px;
     }
-    .contact-medias{
+
+    .contact-medias {
         margin-bottom: 12px;
-    
+
     }
-    
+
+    .store {
+        gap: 20px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .store h2 {
+        margin-bottom: 32px;
+    }
+
+    .sotre-content {
+        grid-template-columns: 1fr;
+    }
+
 
 }
 
@@ -299,11 +319,17 @@
     .bikes a {
         place-self: start;
     }
-    .form{
+
+    .form {
         grid-template-columns: fr;
     }
-    .form .col-2{
+
+    .form .col-2 {
         grid-column: 1;
+    }
+
+    .store {
+        grid-template-columns: 1fr;
     }
 
     .footer {
