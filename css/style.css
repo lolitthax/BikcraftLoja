@@ -299,6 +299,12 @@
     .bikes a {
         place-self: start;
     }
+    .form{
+        grid-template-columns: fr;
+    }
+    .form .col-2{
+        grid-column: 1;
+    }
 
     .footer {
         grid-template-columns: 1fr;
