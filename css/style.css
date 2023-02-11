@@ -41,6 +41,10 @@
     .font-2-l-b {
         font-size: 1.125rem;
     }
+    .budget-product,
+    .budget-datas{
+        padding: 32px;
+    }
 
 }
 
@@ -281,6 +285,15 @@
     .sotre-content {
         grid-template-columns: 1fr;
     }
+    .budget{
+        grid-template-columns: 1fr;
+    }
+    .budget-product{
+        border-radius:5px 5px 0 0 ;
+    }
+    .budget-datas{
+        border-radius: 0 0 5px 5px;
+    }
 
 
 }
@@ -351,6 +364,9 @@
     }
 
     .bike-buy {
+        grid-template-columns: 1fr;
+    }
+    .budget-product{
         grid-template-columns: 1fr;
     }
 }
