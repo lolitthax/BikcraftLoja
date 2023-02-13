@@ -47,7 +47,12 @@
     }
 
 }
-
+@media (min-width: 1200px)
+{
+    .testimony img{
+        max-height: 520px;
+    }
+}
 
 @media (max-width: 800px) {
 
@@ -256,6 +261,7 @@
 
     .contact-data {
         border-radius: 5px 5px 0 0;
+        background: var(--color-12);
     }
 
     .contact-form {
@@ -290,6 +296,7 @@
     }
     .budget-product{
         border-radius:5px 5px 0 0 ;
+        background: var(--color-12);
     }
     .budget-datas{
         border-radius: 0 0 5px 5px;

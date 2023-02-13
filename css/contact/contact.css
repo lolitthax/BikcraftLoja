@@ -1,6 +1,6 @@
 #contact {
     background: linear-gradient(var(--color-11) 500px, var(--color-1) 0px);
-    
+
 }
 
 .contact {
@@ -15,14 +15,14 @@
 }
 
 .contact-data {
-    background: var(--color-12);
     border-radius: 5px 0 0 5px;
+    background: var(--color-12) url("../../img/dec/bottom-right.svg") no-repeat bottom 20px left 20px;
 
 }
 
 .contact-form {
     border-radius: 0 0 5px 5px;
-    background: var(--color-0);
+    background: var(--color-0) url("../../img/dec/bottom-right.svg") no-repeat bottom 20px right 20px;
 }
 
 .contact-data h2 {
@@ -65,7 +65,7 @@
     margin-bottom: 60px;
 }
 
-.contact-medias{
+.contact-medias {
     display: flex;
     gap: 32px;
     padding-left: 28px;

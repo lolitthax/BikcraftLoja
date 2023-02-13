@@ -5,6 +5,7 @@
     gap: 40px;
     padding-top: 60px;
     padding-bottom: 60px;
+    background: url("../img/dec/top-right.svg") no-repat top 40px right 20px;
 }
 
 .bike-img {
@@ -22,11 +23,11 @@
     min-width: 100%;
 }
 
-.bike-content > p{
+.bike-content>p {
     margin-bottom: 32px;
 }
 
-.bike-buy{
+.bike-buy {
     display: grid;
     grid-template-columns: max-content auto;
     align-items: center;
@@ -34,55 +35,63 @@
     gap: 8px 12px;
     margin-bottom: 40px;
 }
-.bike-buy a{
+
+.bike-buy a {
     grid-row: span 2;
 
 }
-.bike-buy span{
+
+.bike-buy span {
     display: felx;
     align-items: center;
     background: var(--color-12);
     padding: 4px 8px;
     border-radius: 4px;
     gap: 8px;
-    
+
 }
-.bike-content h2{
+
+.bike-content h2 {
     text-transform: uppercase;
     letter-spacing: 0.15em;
     margin-bottom: 12px;
 }
+
 .bike-info,
-.bike-record{
+.bike-record {
     padding: 32px;
     background: var(--color-12);
     border-radius: 4px;
 }
-.bike-info{
-   margin-bottom: 40px; 
-   display: grid;
-   grid-template-columns: 1fr 1fr;
-   gap: 32px;
+
+.bike-info {
+    margin-bottom: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
 }
 
-.bike-info img{
+.bike-info img {
     width: 24px;
     height: 18px;
 }
 
-.bike-info h3{
+.bike-info h3 {
     margin-bottom: 8px;
 }
-.bike-record li{
+
+.bike-record li {
     padding: 4px 0;
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid  var(--color-11);
-    
+    border-bottom: 1px solid var(--color-11);
+
 }
-.bike-record li:last-child{
+
+.bike-record li:last-child {
     border-bottom: none;
 }
-.bike-record span{
+
+.bike-record span {
     color: var(--color-6);
 }
