@@ -15,14 +15,35 @@ links.forEach(ativarLink);
 
 const parametros = new URLSearchParams(location.search);
 
-function ativarProduto(parametro){
+function ativarProduto(parametro) {
     const elemento = document.getElementById(parametro);
-    if(elemento){
+    if (elemento) {
         elemento.checked = true;
     }
-   
-    
+
+
 }
 
 parametros.forEach(ativarProduto);
 
+//F.A.Q
+
+const perguntas = document.querySelectorAll('.questions button');
+
+function ativarPergunta(event) {
+    const pergunta = event.currentTarget;
+    const controls = pergunta.getAttribute('aria-controls');
+    const resposta = document.getElementById(controls);
+    
+    resposta.classList.toggle('ativa');
+    const ativa = resposta.classList.contains('ativa');
+    pergunta.setAttribute('aria-expanded', 'true');
+
+}
+
+function eventosPerguntas(pergunta) {
+    pergunta.addEventListener('click', ativarPergunta);
+}
+
+perguntas.forEach(eventosPerguntas);
+console.log(perguntas);
