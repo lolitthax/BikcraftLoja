@@ -1,6 +1,7 @@
 @import "./global/global.css";
 @import "./utilities/typography.css";
 @import "./utilities/colors.css";
+@import "./utilities/anime.css";
 @import "./global/header.css";
 @import "./global/footer.css";
 @import "./utilities/components.css";
@@ -41,15 +42,16 @@
     .font-2-l-b {
         font-size: 1.125rem;
     }
+
     .budget-product,
-    .budget-datas{
+    .budget-datas {
         padding: 32px;
     }
 
 }
-@media (min-width: 1200px)
-{
-    .testimony img{
+
+@media (min-width: 1200px) {
+    .testimony img {
         max-height: 520px;
     }
 }
@@ -291,14 +293,17 @@
     .sotre-content {
         grid-template-columns: 1fr;
     }
-    .budget{
+
+    .budget {
         grid-template-columns: 1fr;
     }
-    .budget-product{
-        border-radius:5px 5px 0 0 ;
+
+    .budget-product {
+        border-radius: 5px 5px 0 0;
         background: var(--color-12);
     }
-    .budget-datas{
+
+    .budget-datas {
         border-radius: 0 0 5px 5px;
     }
 
@@ -373,7 +378,8 @@
     .bike-buy {
         grid-template-columns: 1fr;
     }
-    .budget-product{
+
+    .budget-product {
         grid-template-columns: 1fr;
     }
 }
